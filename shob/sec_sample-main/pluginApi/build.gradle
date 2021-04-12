@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+dependencies{
+ 
+}
+
+
+// We need Gradle to finish configuring the other sub-project first, because we need to
+// refer to two of its tasks below.
+
